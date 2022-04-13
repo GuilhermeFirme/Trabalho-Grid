@@ -1,0 +1,16 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: repeat(3, 50px);
+    border: solid 1px black ;
+}
+.item
+{
+    border: solid 1px black;
+}
+.item-2, .item-3, .item-5
+{
+    background-color: blue;
+}
